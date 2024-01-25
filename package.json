@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/vm-helpers",
-  "homepage": "https://github.com/bablr-lang/vm-helpers",
+  "repository": "github:bablr-lang/bablr-vm-helpers",
+  "homepage": "https://github.com/bablr-lang/bablr-vm-helpers",
   "license": "MIT"
 }
