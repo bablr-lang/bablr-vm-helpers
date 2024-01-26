@@ -11,10 +11,20 @@
     ".": "./lib/index.js"
   },
   "sideEffects": false,
+  "scripts": {
+    "generate": "babel lib/builders.js --out-file lib/builders.generated.js",
+    "clean": "rm lib/builders.generated.js"
+  },
   "dependencies": {
-    "@bablr/ast-helpers": "github:bablr-lang/ast-helpers#86261c74e09bce97cfa2245f7c0fe4102f70ca7f"
+    "@bablr/ast-helpers": "github:bablr-lang/ast-helpers#86261c74e09bce97cfa2245f7c0fe4102f70ca7f",
+    "@bablr/boot-helpers": "0.1.3"
   },
   "devDependencies": {
+    "@babel/cli": "7.22.15",
+    "@babel/core": "7.22.20",
+    "@babel/parser": "^7.21.4",
+    "@bablr/boot": "0.1.9",
+    "babel-plugin-macros": "3.1.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.32.0",
