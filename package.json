@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/vm-helpers",
+  "name": "@bablr/agast-vm-helpers",
   "description": "Helper functions for working with the BABLR VM",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/bablr-vm-helpers",
-  "homepage": "https://github.com/bablr-lang/bablr-vm-helpers",
+  "repository": "github:bablr-lang/agast-vm-helpers",
+  "homepage": "https://github.com/bablr-lang/agast-vm-helpers",
   "license": "MIT"
 }

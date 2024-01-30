@@ -1,3 +1,3 @@
-# @bablr/vm-helpers
+# @bablr/agast-vm-helpers
 
-Helper functions for working with the BABLR VM
+Helper functions for working with the agAST VM
