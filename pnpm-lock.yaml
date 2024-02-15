@@ -6,11 +6,8 @@ settings:
 
 dependencies:
   '@bablr/agast-helpers':
-    specifier: github:bablr-lang/agast-helpers#1a0f8e28de909821823183f53b6cfe14654f0964
-    version: github.com/bablr-lang/agast-helpers/1a0f8e28de909821823183f53b6cfe14654f0964
-  '@bablr/boot-helpers':
-    specifier: 0.1.3
-    version: 0.1.3
+    specifier: github:bablr-lang/agast-helpers#8b57f2971fc91f6dd4e23ec626a77c931c877786
+    version: github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786
 
 devDependencies:
   '@babel/cli':
@@ -23,8 +20,8 @@ devDependencies:
     specifier: ^7.21.4
     version: 7.23.9
   '@bablr/boot':
-    specifier: 0.1.9
-    version: 0.1.9
+    specifier: github:bablr-lang/boot#64184e83c8ef575d7e9bcf2b5417f585382ce09a
+    version: github.com/bablr-lang/boot/64184e83c8ef575d7e9bcf2b5417f585382ce09a
   '@bablr/eslint-config-base':
     specifier: github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef
     version: github.com/bablr-lang/eslint-config-base/c040bc95f2dddac160628e4757a412016044b3ef(eslint@8.56.0)
@@ -323,23 +320,6 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: true
 
-  /@bablr/boot-helpers@0.1.3:
-    resolution: {integrity: sha512-RrIVJqmQHH0ka0ZzdFG84bXskJVRZ3DBM82l5mN3orhbkbEuGUKVWJ+vKtIKOskrRcqhWCtd588BbZdZQG9/TQ==}
-    engines: {node: '>=12.0.0'}
-    dev: false
-
-  /@bablr/boot@0.1.9:
-    resolution: {integrity: sha512-+ViZc0SKnFKq5eShSmk37L3GlWzIPlxj9HcSqPRobGc4tXbEQ4Y78mSohHxzPF3WmqJdYpqW2Oc5/zGoSroaKA==}
-    engines: {node: '>=12.0.0'}
-    dependencies:
-      '@babel/helper-module-imports': 7.22.15
-      '@babel/template': 7.23.9
-      '@babel/types': 7.23.0
-      '@bablr/boot-helpers': 0.1.2
-      escape-string-regexp: 4.0.0
-      iter-tools-es: 7.5.3
-    dev: true
-
   /@eslint-community/eslint-utils@4.4.0(eslint@8.56.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -396,6 +376,10 @@ packages:
   /@humanwhocodes/object-schema@2.0.2:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
+
+  /@iter-tools/imm-stack@1.1.0:
+    resolution: {integrity: sha512-5wCL8xt4sZ3v0buB3HrzqL2FTkaYB+ZVwkACo1G80zXWWG/8tSGgRiz7EQSkgDRrPQtpoGXRdOKW+GAVmG/Uyg==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -2120,11 +2104,27 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/agast-helpers/1a0f8e28de909821823183f53b6cfe14654f0964:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/1a0f8e28de909821823183f53b6cfe14654f0964}
+  github.com/bablr-lang/agast-helpers/8b57f2971fc91f6dd4e23ec626a77c931c877786:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/8b57f2971fc91f6dd4e23ec626a77c931c877786}
     name: '@bablr/agast-helpers'
     version: 0.0.0
+    dependencies:
+      '@iter-tools/imm-stack': 1.1.0
     dev: false
+
+  github.com/bablr-lang/boot/64184e83c8ef575d7e9bcf2b5417f585382ce09a:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/64184e83c8ef575d7e9bcf2b5417f585382ce09a}
+    name: '@bablr/boot'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@babel/helper-module-imports': 7.22.15
+      '@babel/template': 7.23.9
+      '@babel/types': 7.23.0
+      '@bablr/boot-helpers': 0.1.2
+      escape-string-regexp: 4.0.0
+      iter-tools-es: 7.5.3
+    dev: true
 
   github.com/bablr-lang/eslint-config-base/c040bc95f2dddac160628e4757a412016044b3ef(eslint@8.56.0):
     resolution: {tarball: https://codeload.github.com/bablr-lang/eslint-config-base/tar.gz/c040bc95f2dddac160628e4757a412016044b3ef}
