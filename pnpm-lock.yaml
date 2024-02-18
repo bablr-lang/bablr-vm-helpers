@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@bablr/agast-helpers':
-    specifier: github:bablr-lang/agast-helpers#f59c044508ac43226f071345f8e0231fa3fc7fa4
-    version: github.com/bablr-lang/agast-helpers/f59c044508ac43226f071345f8e0231fa3fc7fa4
+    specifier: github:bablr-lang/agast-helpers#06894387f6d302a35d61a016cc5054fa5a69d768
+    version: github.com/bablr-lang/agast-helpers/06894387f6d302a35d61a016cc5054fa5a69d768
 
 devDependencies:
   '@babel/cli':
@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^7.21.4
     version: 7.23.9
   '@bablr/boot':
-    specifier: github:bablr-lang/boot#64184e83c8ef575d7e9bcf2b5417f585382ce09a
-    version: github.com/bablr-lang/boot/64184e83c8ef575d7e9bcf2b5417f585382ce09a
+    specifier: github:bablr-lang/boot#461dbb0adcc207acf74ff5862787c261e517b55f
+    version: github.com/bablr-lang/boot/461dbb0adcc207acf74ff5862787c261e517b55f
   '@bablr/eslint-config-base':
     specifier: github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef
     version: github.com/bablr-lang/eslint-config-base/c040bc95f2dddac160628e4757a412016044b3ef(eslint@8.56.0)
@@ -2104,16 +2104,16 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/agast-helpers/f59c044508ac43226f071345f8e0231fa3fc7fa4:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/f59c044508ac43226f071345f8e0231fa3fc7fa4}
+  github.com/bablr-lang/agast-helpers/06894387f6d302a35d61a016cc5054fa5a69d768:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/06894387f6d302a35d61a016cc5054fa5a69d768}
     name: '@bablr/agast-helpers'
     version: 0.0.0
     dependencies:
       '@iter-tools/imm-stack': 1.1.0
     dev: false
 
-  github.com/bablr-lang/boot/64184e83c8ef575d7e9bcf2b5417f585382ce09a:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/64184e83c8ef575d7e9bcf2b5417f585382ce09a}
+  github.com/bablr-lang/boot/461dbb0adcc207acf74ff5862787c261e517b55f:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/461dbb0adcc207acf74ff5862787c261e517b55f}
     name: '@bablr/boot'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
