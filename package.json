@@ -8,7 +8,10 @@
     "lib"
   ],
   "exports": {
-    ".": "./lib/index.js"
+    ".": "./lib/index.js",
+    "./facades": "./lib/facades.js",
+    "./builders": "./lib/builders.js",
+    "./run": "./lib/run.js"
   },
   "sideEffects": false,
   "scripts": {
