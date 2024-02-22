@@ -16,7 +16,8 @@
     "clean": "rm lib/builders.generated.js"
   },
   "dependencies": {
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#06894387f6d302a35d61a016cc5054fa5a69d768"
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#9d8566be64bb358ff72b35c54fc104c9a7ab5cd4",
+    "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d"
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",

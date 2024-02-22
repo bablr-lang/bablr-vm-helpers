@@ -6,8 +6,11 @@ settings:
 
 dependencies:
   '@bablr/agast-helpers':
-    specifier: github:bablr-lang/agast-helpers#06894387f6d302a35d61a016cc5054fa5a69d768
-    version: github.com/bablr-lang/agast-helpers/06894387f6d302a35d61a016cc5054fa5a69d768
+    specifier: github:bablr-lang/agast-helpers#9d8566be64bb358ff72b35c54fc104c9a7ab5cd4
+    version: github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4
+  '@bablr/coroutine':
+    specifier: github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d
+    version: github.com/bablr-lang/coroutine/2342d82713731288034df588f11f540d1b76603d
 
 devDependencies:
   '@babel/cli':
@@ -2104,8 +2107,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/agast-helpers/06894387f6d302a35d61a016cc5054fa5a69d768:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/06894387f6d302a35d61a016cc5054fa5a69d768}
+  github.com/bablr-lang/agast-helpers/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/agast-helpers/tar.gz/9d8566be64bb358ff72b35c54fc104c9a7ab5cd4}
     name: '@bablr/agast-helpers'
     version: 0.0.0
     dependencies:
@@ -2125,6 +2128,12 @@ packages:
       escape-string-regexp: 4.0.0
       iter-tools-es: 7.5.3
     dev: true
+
+  github.com/bablr-lang/coroutine/2342d82713731288034df588f11f540d1b76603d:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/coroutine/tar.gz/2342d82713731288034df588f11f540d1b76603d}
+    name: '@bablr/coroutine'
+    version: 0.0.0
+    dev: false
 
   github.com/bablr-lang/eslint-config-base/c040bc95f2dddac160628e4757a412016044b3ef(eslint@8.56.0):
     resolution: {tarball: https://codeload.github.com/bablr-lang/eslint-config-base/tar.gz/c040bc95f2dddac160628e4757a412016044b3ef}
