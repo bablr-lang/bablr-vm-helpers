@@ -19,14 +19,14 @@
     "clean": "rm lib/builders.generated.js"
   },
   "dependencies": {
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#9d8566be64bb358ff72b35c54fc104c9a7ab5cd4",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#298f42760021ba2b021cda90508e8e162b116470",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d"
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",
     "@babel/core": "7.22.20",
     "@babel/parser": "^7.21.4",
-    "@bablr/boot": "github:bablr-lang/boot#461dbb0adcc207acf74ff5862787c261e517b55f",
+    "@bablr/boot": "github:bablr-lang/boot#e216e6abcd2d0a641277e443658be6127cf20a28",
     "babel-plugin-macros": "3.1.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "enhanced-resolve": "^5.12.0",
