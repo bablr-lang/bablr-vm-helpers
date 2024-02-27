@@ -10,7 +10,7 @@
   "exports": {
     ".": "./lib/index.js",
     "./facades": "./lib/facades.js",
-    "./builders": "./lib/builders.js",
+    "./builders": "./lib/builders.generated.js",
     "./run": "./lib/run.js"
   },
   "sideEffects": false,
