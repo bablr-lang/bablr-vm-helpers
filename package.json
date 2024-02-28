@@ -19,7 +19,7 @@
     "clean": "rm lib/builders.generated.js"
   },
   "dependencies": {
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#298f42760021ba2b021cda90508e8e162b116470",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#759adf3275bdcd85dbc4a96187bd50413176bda7",
     "@bablr/coroutine": "github:bablr-lang/coroutine#2342d82713731288034df588f11f540d1b76603d"
   },
   "devDependencies": {
