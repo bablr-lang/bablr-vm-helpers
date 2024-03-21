@@ -11,6 +11,7 @@
     ".": "./lib/index.js",
     "./facades": "./lib/facades.js",
     "./builders": "./lib/builders.generated.js",
+    "./languages": "./lib/languages.js",
     "./run": "./lib/run.js"
   },
   "sideEffects": false,
