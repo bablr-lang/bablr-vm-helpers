@@ -9,13 +9,16 @@
   ],
   "exports": {
     ".": "./lib/index.js",
-    "./facades": "./lib/facades.js",
     "./builders": "./lib/builders.js",
+    "./deembed": "./lib/deembed.js",
+    "./embed": "./lib/embed.js",
+    "./facades": "./lib/facades.js",
+    "./internal-builders": "./lib/internal-builders.js",
     "./languages": "./lib/languages.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "0.2.0"
+    "@bablr/agast-helpers": "0.3.0"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
