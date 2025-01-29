@@ -14,11 +14,12 @@
     "./embed": "./lib/embed.js",
     "./facades": "./lib/facades.js",
     "./internal-builders": "./lib/internal-builders.js",
+    "./iterable": "./lib/iterable.js",
     "./languages": "./lib/languages.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "^0.5.3"
+    "@bablr/agast-helpers": "^0.5.0"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
